@@ -32,7 +32,10 @@
           <a
             href="#"
             class="
+              transition-colors 
+              duration-300
               bg-blue-500
+              hover:bg-blue-600
               ml-3
               rounded-full
               text-xs
@@ -47,7 +50,7 @@
         </div>
       </nav>
       <main class="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
-        <article class="max-w-4xl mx-auto lg:grid lg:grid-cols-12 gap-x-10">
+        <article class="max-w-4xl mx-auto lg:grid lg:grid-cols-12 gap-x-10 pt-10">
           <div class="col-span-4 text-center">
             <img
               src="./images/illustration-1.png"
@@ -68,8 +71,29 @@
             </div>
           </div>
           <div class="col-span-8">
-            <div class="flex justify-between mb-6">
-              <a href="#">Back to Posts</a>
+            <div class="flex justify-between mb-6 -mt-10">
+              <a href="#" class="transition duration-300 relative inline-flex items-center text-lg hover:text-blue-500">
+                <svg
+                  class="mr-2"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      stroke="#000"
+                      stroke-opacity=".012"
+                      stroke-width=".5"
+                      d="M21 1v20.16H.84V1z"
+                    ></path>
+                    <path
+                      class="fill-current"
+                      d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z"
+                    ></path>
+                  </g>
+                </svg>
+                Back to Posts</a
+              >
               <div class="space-x-2">
                 <a
                   href="#"
@@ -106,7 +130,7 @@
               lines. Woohoo!
             </h1>
 
-            <div class="space-y-6">
+            <div class="space-y-6 text-lg">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic
                 labore enim necessitatibus facilis, id incidunt corrupti
